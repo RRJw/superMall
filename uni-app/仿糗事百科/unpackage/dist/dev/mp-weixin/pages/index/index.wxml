@@ -1,0 +1,1 @@
+<view class="content"><image class="logo" src="/static/logo.png"></image><block wx:for="{{5}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="text-area"><text class="title">{{title+"--"+item}}</text></view></block></view>
